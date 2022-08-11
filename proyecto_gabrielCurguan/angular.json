@@ -23,11 +23,11 @@
               "src/assets"
             ],
             "styles": [
-              "proyecto_gabrielCurguan/node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
             "scripts": [
-              "proyecto_gabrielCurguan/node_modules/bootstrap/dist/js/bootstrap.js"
+              "node_modules/bootstrap/dist/js/bootstrap.js"
             ]         
           },
           "configurations": {
