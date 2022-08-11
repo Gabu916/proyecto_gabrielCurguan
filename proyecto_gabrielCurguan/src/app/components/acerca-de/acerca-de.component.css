@@ -1,5 +1,5 @@
 .row{
-    padding: 40px;
+    padding: 20px;
 }
 div{
     background-color:#a1b5cb;
@@ -9,7 +9,7 @@ div{
 @media(min-width: 576px){
     #fotoperfil{
         position: absolute;
-        width: 15%;
+        width: 12%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 2%;
