@@ -1,11 +1,13 @@
 
 package com.portafolio.csg.Security.Controller;
 
+import org.springframework.http.HttpStatus;
+
 
 public class Mensaje {
     private String mensaje;
     
-    //Constructores
+    //Constructor
 
     public Mensaje() {
     }
@@ -13,8 +15,7 @@ public class Mensaje {
     public Mensaje(String mensaje) {
         this.mensaje = mensaje;
     }
-    
-    //Getter y Setters
+    //Getter y Setter
 
     public String getMensaje() {
         return mensaje;
@@ -23,7 +24,5 @@ public class Mensaje {
     public void setMensaje(String mensaje) {
         this.mensaje = mensaje;
     }
-    
-    
     
 }
