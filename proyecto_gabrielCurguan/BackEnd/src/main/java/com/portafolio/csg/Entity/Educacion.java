@@ -1,4 +1,3 @@
-
 package com.portafolio.csg.Entity;
 
 import javax.persistence.Entity;
@@ -8,6 +7,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Educacion {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -21,9 +21,8 @@ public class Educacion {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
     }
-    
-    //getters y setters
 
+    //getters y setters
     public int getId() {
         return id;
     }
@@ -47,5 +46,5 @@ public class Educacion {
     public void setDescripcionE(String descripcionE) {
         this.descripcionE = descripcionE;
     }
-    
+
 }
